@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    padding: 0 0 0 40px;
+    font-size: 17px;
+}
+
+.links a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+
+.homepage-title {
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.read-more {
+    border: none !important;
+    letter-spacing: 5px;
+    padding: 10px 30px !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+}
+
+.read-more:hover {
+    background-color: hsl(5, 85%, 63%) !important;
+}
+
+.homepage-title {
+    font-size: 44px !important;
+    font-weight: 800 !important;
+}
+
+.footer {
+    height: 200px !important;
+}
+
+.footer img {
+    height: 150px;
+}
+
+.footer .col:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+/* mobile */
+
+@media screen and (min-width: 360px) and (max-width: 756px) {
+    nav .links {
+        display: none;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: hsl(35, 77%, 62%);;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+
+}
